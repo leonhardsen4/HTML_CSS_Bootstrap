@@ -31,3 +31,62 @@ body{
 .nav-item{
     font-size: 20px;
 }
+
+footer{
+    
+}
+
+.caixa{
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 400px;
+    height: 400px;
+    box-shadow: 5px 5px black;
+    padding: 20px;
+}
+
+.logo{
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#procon{
+    width: 200px;
+}
+
+#governo{
+    width: 200px;
+}
+
+form{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+input{
+    border-radius: 5px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-size: 16px;
+}
+
+#entrar{
+    background-color: blue;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+}
+
+form a{
+    font-size: 12px;
+}
