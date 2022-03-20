@@ -4,20 +4,25 @@ body{
 }
 
 .navbar{
-    background-color: rgb(45, 47, 49);
+    background-color: white;
     padding: 20px;
-    color: white;
+    color: black;
+}
+
+.navbar a{
+    color: black;
+    font-weight: bold;
 }
 
 #titulo{
-    color: white;
+    color: black;
     font-size: 25px;
     max-width: 200px;
 }
 
 #linha-vertical {
     height: 85px;
-    border-right: 1px solid white;
+    border-right: 3px solid black;
     margin-right: 10px;
     padding-left: 5px;
     padding-right: 5px;
@@ -32,61 +37,86 @@ body{
     font-size: 20px;
 }
 
-footer{
-    
-}
-
 .caixa{
     background-color: white;
     margin: auto;
     margin-top: 100px;
-    border: 1px solid black;
+    border: 0px solid;
     border-radius: 5px;
     max-width: 400px;
     height: 400px;
-    box-shadow: 5px 5px black;
+    box-shadow: 5px 5px rgb(82, 82, 82);
     padding: 20px;
 }
 
-.logo{
+h1{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.logo_procon{
     max-width: 200px;
     margin-left: auto;
     margin-right: auto;
+}
 
+.logo_governo{
+    max-width: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #procon{
-    width: 200px;
+    width: 100%;
 }
 
 #governo{
-    width: 200px;
+    width: 100%;
 }
 
 form{
     margin-left: auto;
     margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-top: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 input{
     border-radius: 5px;
+    border: 0.5px solid rgb(82, 82, 82);
     margin: 10px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     font-size: 16px;
+    height: 30px;
 }
 
 #entrar{
-    background-color: blue;
+    background-color: rgb(26, 26, 114);
     color: white;
     margin-left: auto;
     margin-right: auto;
     font-size: 16px;
+    border: none;
+    height: 30px;
 }
 
-form a{
+.ajuda1{
     font-size: 12px;
+    width: 100px;
+    float: left;
+    margin-top: 5px;
 }
+
+.ajuda2{
+    font-size: 12px;
+    width: 100px;
+    float: right;
+    text-align: end;
+    margin-top: 5px;
+}
+
