@@ -1,6 +1,10 @@
-body{
+html, body{
     background-color: rgb(170, 170, 170);
     font-family: 'Roboto Condensed', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar{
@@ -120,3 +124,22 @@ input{
     margin-top: 5px;
 }
 
+#date{
+    width: 150px;
+}
+
+select{
+    border-radius: 5px;
+}
+
+#registro{
+    width: 150px;
+}
+
+#peso{
+    width: 80px;
+}
+
+#valor{
+    width: 80px;
+}
